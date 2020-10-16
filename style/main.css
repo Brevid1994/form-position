@@ -1,0 +1,88 @@
+.wrap{
+
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+}
+
+/* квадраты */
+
+.square {
+    
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.big {
+    z-index: 5;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(0,162,255);
+}
+
+.big:hover {
+    background-color: purple;
+    z-index: 35;
+}
+
+.little {
+    top: 35%;
+    left: 35%;
+    z-index: 10;
+    height: 30%;
+    width: 30%;
+    background-color: rgb(248,186,0);
+    border-radius: 15%;
+}
+
+/*круги*/
+
+.circle {
+    position: absolute;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.green {
+    top: 17.5%;
+    left: 17.5%;
+}
+
+.green:hover {
+    background-color: green;
+    z-index: 30;
+}
+
+.yellow {
+    top: 17.5%;
+    right: 17.5%;
+}
+
+.yellow:hover {
+    background-color: yellow;
+    z-index: 30;
+}
+
+.black {
+    bottom:  17.5%;
+    left: 17.4%;
+}
+
+.black:hover {
+    background-color: black;
+    z-index: 30;
+}
+
+.brown {
+    bottom: 17.5%;
+    right: 17.5%;
+}
+
+.brown:hover {
+    background-color: brown;
+    z-index: 30;
+}
+
